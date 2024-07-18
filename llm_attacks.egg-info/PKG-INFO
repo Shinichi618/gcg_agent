@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: llm-attacks
+Version: 0.0.1
+Summary: library for creating adversarial prompts for language models
+Author: Andy Zou, Zifan Wang, Matt Fredrikson, J. Zico Kolter
+Author-email: jzou4@andrew.cmu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers==4.28.1
+Requires-Dist: ml_collections
+Requires-Dist: fschat==0.2.20
+
 # LLM Attacks
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
